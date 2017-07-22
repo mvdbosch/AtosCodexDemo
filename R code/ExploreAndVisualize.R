@@ -16,7 +16,7 @@ library(XML)
 library(pmml)
 
 #Set workdir
-setwd('~d2/Documents/AnalyticsProjects/CBS');
+setwd('./Documents/AtosCodexDemo');
 
 # Load combined dataset we created earlier with Talend ETL
 data <- read.csv('combined_data.csv',header=T,stringsAsFactors = FALSE);

@@ -45,8 +45,8 @@
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="" show="false"/>
     <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
@@ -56,7 +56,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/usr/local/talend-6.1.0-1.el6/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;/home/mbosch/workspace/.metadata&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
@@ -106,13 +106,12 @@
   </parameters>
   <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/usr/local/talend-6.1.0-1.el6/configuration/lib/java" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="PROTO" value="http"/>
+    <elementParameter field="CLOSED_LIST" name="PROTO" value="https"/>
     <elementParameter field="CHECK" name="POST" value="true"/>
-    <elementParameter field="TEXT" name="URI" value="&quot;http://pub.marcel.im/CodexDemo/CBS_DATA_NL_2010-2015.zip&quot;"/>
+    <elementParameter field="TEXT" name="URI" value="&quot;https://pub.marcel.im/CodexDemo/CBS_DATA_NL_2010-2015.zip&quot;"/>
     <elementParameter field="CHECK" name="USE_CACHE" value="false"/>
     <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://host/dir/remoteFileName.txt&quot;" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;/home/d2/Downloads&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="System.getProperty(&quot;user.dir&quot;) + &quot;/Downloads/&quot;"/>
     <elementParameter field="CHECK" name="MAKEDIRS" value="false"/>
     <elementParameter field="TEXT" name="FILENAME" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="ADD_HEADER" value="false"/>
@@ -147,15 +146,15 @@
   </node>
   <node componentName="tFileUnarchive" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileUnarchive_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="/usr/local/talend-6.1.0-1.el6/configuration/lib/java" show="false"/>
-    <elementParameter field="FILE" name="ZIPFILE" value="&quot;/home/d2/Downloads/CBS_DATA_NL_2010-2015.zip&quot;"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;/home/d2/Documents/AnalyticsProjects/CBS&quot;"/>
+    <elementParameter field="FILE" name="ZIPFILE" value="System.getProperty(&quot;user.dir&quot;) + &quot;/Downloads/CBS_DATA_NL_2010-2015.zip&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="System.getProperty(&quot;user.dir&quot;) + &quot;/Documents/AtosCodexDemo/Dataset&quot;"/>
     <elementParameter field="CHECK" name="ROOTNAME" value="true"/>
     <elementParameter field="CHECK" name="INTEGRITY" value="false"/>
     <elementParameter field="CHECK" name="EXTRACTPATH" value="true"/>
     <elementParameter field="CHECK" name="CHECKPASSWORD" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DECRYPT_METHOD" value="ZIP4J_DECRYPT" show="false"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="0RMsyjmybrE=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="PRINTOUT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
