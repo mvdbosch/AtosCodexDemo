@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="url" type="xstring" value="/home/d2/Documents/AnalyticsProjects/CBS/combined_data.csv"/>
+<entry key="url" type="xstring" value="Documents/AtosCodexDemo/Dataset/combined_data.csv"/>
 <entry key="colDelimiter" type="xstring" value=","/>
 <entry key="rowDelimiter" type="xstring" value="%%00010"/>
 <entry key="quote" type="xstring" value="&quot;"/>
