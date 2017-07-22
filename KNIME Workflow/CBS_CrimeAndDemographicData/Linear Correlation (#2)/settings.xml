@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="include-list_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="include-list">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="216"/>
+<entry key="0" type="xstring" value="Regiocode"/>
+<entry key="1" type="xstring" value="Regionaam"/>
+<entry key="2" type="xstring" value="Inwoners"/>
+<entry key="3" type="xstring" value="Vermogen_Vernielingen_en_Geweld"/>
+<entry key="4" type="xstring" value="Vermogensmisdrijven"/>
+<entry key="5" type="xstring" value="Diefstal"/>
+<entry key="6" type="xstring" value="Fietsendiefstal"/>
+<entry key="7" type="xstring" value="Diefstal_overige_vervoersmiddelen"/>
+<entry key="8" type="xstring" value="Diefstal_uit_vanaf_vervoersmiddelen"/>
+<entry key="9" type="xstring" value="Zakkenrollerij_Straatroof_Beroving"/>
+<entry key="10" type="xstring" value="Woninginbraak_incl_schuur_tuin"/>
+<entry key="11" type="xstring" value="Diefstal_inbraak_niet_residentiele_gebouwen"/>
+<entry key="12" type="xstring" value="Overige_diefstal_inbraak"/>
+<entry key="13" type="xstring" value="Overige_vermogensmisdrijven"/>
+<entry key="14" type="xstring" value="Vernielingen_misdrijven_openbare_orde_gezag"/>
+<entry key="15" type="xstring" value="Vernielingen"/>
+<entry key="16" type="xstring" value="Vernielingen_aan_auto"/>
+<entry key="17" type="xstring" value="Overige_vernielingen"/>
+<entry key="18" type="xstring" value="Misdrijven_openbare_order_gezag"/>
+<entry key="19" type="xstring" value="Gewelds_en_seksuele_misdrijven"/>
+<entry key="20" type="xstring" value="Mishandelingen"/>
+<entry key="21" type="xstring" value="Bedreigingen_en_stalking"/>
+<entry key="22" type="xstring" value="Overige_gewelds_en_seksuele_misdrijven"/>
+<entry key="23" type="xstring" value="Totaal_vermogen_vernieling_en_geweld_rel"/>
+<entry key="24" type="xstring" value="Vermogensmisdrijven_rel"/>
+<entry key="25" type="xstring" value="Diefstal_inbraak_woning_rel"/>
+<entry key="26" type="xstring" value="Vernieling_en_openbare_orde_rel"/>
+<entry key="27" type="xstring" value="Gewelds_en_seksuele_misdrijven_rel"/>
+<entry key="28" type="xstring" value="YEAR"/>
+<entry key="29" type="xstring" value="Buurtnaam"/>
+<entry key="30" type="xstring" value="Wijkcode"/>
+<entry key="31" type="xstring" value="Gemeentecode"/>
+<entry key="32" type="xstring" value="Gemeentenaam"/>
+<entry key="33" type="xstring" value="IND_WBI_Indelingswijziging"/>
+<entry key="34" type="xstring" value="WATER"/>
+<entry key="35" type="xstring" value="POSTCODE"/>
+<entry key="36" type="xstring" value="DEK_PERC"/>
+<entry key="37" type="xstring" value="OAD"/>
+<entry key="38" type="xstring" value="STED"/>
+<entry key="39" type="xstring" value="AANT_INW"/>
+<entry key="40" type="xstring" value="AANT_MAN"/>
+<entry key="41" type="xstring" value="AANT_VROUW"/>
+<entry key="42" type="xstring" value="P_00_14_JR"/>
+<entry key="43" type="xstring" value="P_15_24_JR"/>
+<entry key="44" type="xstring" value="P_25_44_JR"/>
+<entry key="45" type="xstring" value="P_45_64_JR"/>
+<entry key="46" type="xstring" value="P_65_EO_JR"/>
+<entry key="47" type="xstring" value="P_ONGEHUWD"/>
+<entry key="48" type="xstring" value="P_GEHUWD"/>
+<entry key="49" type="xstring" value="P_GESCHEID"/>
+<entry key="50" type="xstring" value="P_VERWEDUW"/>
+<entry key="51" type="xstring" value="GEBOO_TOT"/>
+<entry key="52" type="xstring" value="P_GEBOO"/>
+<entry key="53" type="xstring" value="STERFT_TOT"/>
+<entry key="54" type="xstring" value="P_STERF"/>
+<entry key="55" type="xstring" value="BEV_DICHTH"/>
+<entry key="56" type="xstring" value="AANTAL_HH"/>
+<entry key="57" type="xstring" value="P_EENP_HH"/>
+<entry key="58" type="xstring" value="P_HH_Z_K"/>
+<entry key="59" type="xstring" value="P_HH_M_K"/>
+<entry key="60" type="xstring" value="GEM_HH_GR"/>
+<entry key="61" type="xstring" value="P_WEST_AL"/>
+<entry key="62" type="xstring" value="P_N_W_AL"/>
+<entry key="63" type="xstring" value="P_MAROKKO"/>
+<entry key="64" type="xstring" value="P_ANT_ARU"/>
+<entry key="65" type="xstring" value="P_SURINAM"/>
+<entry key="66" type="xstring" value="P_TURKIJE"/>
+<entry key="67" type="xstring" value="P_OVER_NW"/>
+<entry key="68" type="xstring" value="A_BED_A"/>
+<entry key="69" type="xstring" value="A_BED_BF"/>
+<entry key="70" type="xstring" value="A_BED_GI"/>
+<entry key="71" type="xstring" value="A_BED_HJ"/>
+<entry key="72" type="xstring" value="A_BED_KL"/>
+<entry key="73" type="xstring" value="A_BED_MN"/>
+<entry key="74" type="xstring" value="A_BED_RU"/>
+<entry key="75" type="xstring" value="A_BEDV"/>
+<entry key="76" type="xstring" value="WONINGEN"/>
+<entry key="77" type="xstring" value="WOZ"/>
+<entry key="78" type="xstring" value="P_1GEZW"/>
+<entry key="79" type="xstring" value="P_MGEZW"/>
+<entry key="80" type="xstring" value="P_KOOPWON"/>
+<entry key="81" type="xstring" value="P_HUURWON"/>
+<entry key="82" type="xstring" value="P_HUKO_ONB"/>
+<entry key="83" type="xstring" value="P_WONT2000"/>
+<entry key="84" type="xstring" value="P_WONV2000"/>
+<entry key="85" type="xstring" value="G_GAS_TOT"/>
+<entry key="86" type="xstring" value="G_GAS_APP"/>
+<entry key="87" type="xstring" value="G_GAS_TUS"/>
+<entry key="88" type="xstring" value="G_GAS_HOEK"/>
+<entry key="89" type="xstring" value="G_GAS_21K"/>
+<entry key="90" type="xstring" value="G_GAS_VRY"/>
+<entry key="91" type="xstring" value="G_GAS_HU"/>
+<entry key="92" type="xstring" value="G_GAS_KO"/>
+<entry key="93" type="xstring" value="P_STADVERW"/>
+<entry key="94" type="xstring" value="G_ELEK_TOT"/>
+<entry key="95" type="xstring" value="G_ELEK_APP"/>
+<entry key="96" type="xstring" value="G_ELEK_TUS"/>
+<entry key="97" type="xstring" value="G_ELEK_HOE"/>
+<entry key="98" type="xstring" value="G_ELEK_21K"/>
+<entry key="99" type="xstring" value="G_ELEK_VRY"/>
+<entry key="100" type="xstring" value="G_ELE_HU"/>
+<entry key="101" type="xstring" value="G_ELE_KO"/>
+<entry key="102" type="xstring" value="AANT_INK"/>
+<entry key="103" type="xstring" value="INK_ONTV"/>
+<entry key="104" type="xstring" value="INK_INW"/>
+<entry key="105" type="xstring" value="P_LAAGINKP"/>
+<entry key="106" type="xstring" value="P_HOOGINKP"/>
+<entry key="107" type="xstring" value="P_LAAGINKH"/>
+<entry key="108" type="xstring" value="P_HOOGINKH"/>
+<entry key="109" type="xstring" value="P_LIK_HH"/>
+<entry key="110" type="xstring" value="P_SOMCMINH"/>
+<entry key="111" type="xstring" value="AO_UIT_TOT"/>
+<entry key="112" type="xstring" value="WW_UIT_TOT"/>
+<entry key="113" type="xstring" value="WWB_UITTOT"/>
+<entry key="114" type="xstring" value="P_ACTIEF"/>
+<entry key="115" type="xstring" value="A_SOZ_OW"/>
+<entry key="116" type="xstring" value="AUTO_TOT"/>
+<entry key="117" type="xstring" value="AUTO_HH"/>
+<entry key="118" type="xstring" value="AUTO_LAND"/>
+<entry key="119" type="xstring" value="BEDR_AUTO"/>
+<entry key="120" type="xstring" value="MOTOR_2W"/>
+<entry key="121" type="xstring" value="A_LFTJ6J"/>
+<entry key="122" type="xstring" value="A_LFT06J"/>
+<entry key="123" type="xstring" value="A_BST_B"/>
+<entry key="124" type="xstring" value="A_BST_NB"/>
+<entry key="125" type="xstring" value="AF_ARTSPR"/>
+<entry key="126" type="xstring" value="AV1_ARTSPR"/>
+<entry key="127" type="xstring" value="AV3_ARTSPR"/>
+<entry key="128" type="xstring" value="AV5_ARTSPR"/>
+<entry key="129" type="xstring" value="AF_APOTH"/>
+<entry key="130" type="xstring" value="AF_ZIEK_I"/>
+<entry key="131" type="xstring" value="AV5_ZIEK_I"/>
+<entry key="132" type="xstring" value="AV10ZIEK_I"/>
+<entry key="133" type="xstring" value="AV20ZIEK_I"/>
+<entry key="134" type="xstring" value="AF_ZIEK_E"/>
+<entry key="135" type="xstring" value="AV5_ZIEK_E"/>
+<entry key="136" type="xstring" value="AV10ZIEK_E"/>
+<entry key="137" type="xstring" value="AV20ZIEK_E"/>
+<entry key="138" type="xstring" value="AF_SUPERM"/>
+<entry key="139" type="xstring" value="AV1_SUPERM"/>
+<entry key="140" type="xstring" value="AV3_SUPERM"/>
+<entry key="141" type="xstring" value="AV5_SUPERM"/>
+<entry key="142" type="xstring" value="AF_DAGLMD"/>
+<entry key="143" type="xstring" value="AV1_DAGLMD"/>
+<entry key="144" type="xstring" value="AV3_DAGLMD"/>
+<entry key="145" type="xstring" value="AV5_DAGLMD"/>
+<entry key="146" type="xstring" value="AF_WARENH"/>
+<entry key="147" type="xstring" value="AV5_WARENH"/>
+<entry key="148" type="xstring" value="AV10WARENH"/>
+<entry key="149" type="xstring" value="AV20WARENH"/>
+<entry key="150" type="xstring" value="AF_CAFE"/>
+<entry key="151" type="xstring" value="AV1_CAFE"/>
+<entry key="152" type="xstring" value="AV3_CAFE"/>
+<entry key="153" type="xstring" value="AV5_CAFE"/>
+<entry key="154" type="xstring" value="AF_CAFTAR"/>
+<entry key="155" type="xstring" value="AV1_CAFTAR"/>
+<entry key="156" type="xstring" value="AV3_CAFTAR"/>
+<entry key="157" type="xstring" value="AV5_CAFTAR"/>
+<entry key="158" type="xstring" value="AF_RESTAU"/>
+<entry key="159" type="xstring" value="AV1_RESTAU"/>
+<entry key="160" type="xstring" value="AV3_RESTAU"/>
+<entry key="161" type="xstring" value="AV5_RESTAU"/>
+<entry key="162" type="xstring" value="AF_HOTEL"/>
+<entry key="163" type="xstring" value="AV5_HOTEL"/>
+<entry key="164" type="xstring" value="AV10_HOTEL"/>
+<entry key="165" type="xstring" value="AV20_HOTEL"/>
+<entry key="166" type="xstring" value="AF_KDV"/>
+<entry key="167" type="xstring" value="AV1_KDV"/>
+<entry key="168" type="xstring" value="AV3_KDV"/>
+<entry key="169" type="xstring" value="AV5_KDV"/>
+<entry key="170" type="xstring" value="AF_BSO"/>
+<entry key="171" type="xstring" value="AV1_BSO"/>
+<entry key="172" type="xstring" value="AV3_BSO"/>
+<entry key="173" type="xstring" value="AV5_BSO"/>
+<entry key="174" type="xstring" value="AF_ONDBAS"/>
+<entry key="175" type="xstring" value="AV1_ONDBAS"/>
+<entry key="176" type="xstring" value="AV3_ONDBAS"/>
+<entry key="177" type="xstring" value="AV5_ONDBAS"/>
+<entry key="178" type="xstring" value="AF_ONDVRT"/>
+<entry key="179" type="xstring" value="AV3_ONDVRT"/>
+<entry key="180" type="xstring" value="AV5_ONDVRT"/>
+<entry key="181" type="xstring" value="AV100NDVRT"/>
+<entry key="182" type="xstring" value="AF_ONDVMB"/>
+<entry key="183" type="xstring" value="AV3_ONDVMB"/>
+<entry key="184" type="xstring" value="AV5_ONDVMB"/>
+<entry key="185" type="xstring" value="AV100NDVMB"/>
+<entry key="186" type="xstring" value="AF_ONDHV"/>
+<entry key="187" type="xstring" value="AV3_ONDHV"/>
+<entry key="188" type="xstring" value="AV5_ONDHV"/>
+<entry key="189" type="xstring" value="AV10_ONDHV"/>
+<entry key="190" type="xstring" value="AF_BRANDW"/>
+<entry key="191" type="xstring" value="AF_OPRITH"/>
+<entry key="192" type="xstring" value="AF_TREINST"/>
+<entry key="193" type="xstring" value="AF_OVERST"/>
+<entry key="194" type="xstring" value="AF_ZWEMB"/>
+<entry key="195" type="xstring" value="AF_IJSBAAN"/>
+<entry key="196" type="xstring" value="AF_BIBLIO"/>
+<entry key="197" type="xstring" value="AF_BIOS"/>
+<entry key="198" type="xstring" value="AV5_BIOS"/>
+<entry key="199" type="xstring" value="AV10_BIOS"/>
+<entry key="200" type="xstring" value="AV20_BIOS"/>
+<entry key="201" type="xstring" value="AF_SUANA"/>
+<entry key="202" type="xstring" value="AF_ZONBNK"/>
+<entry key="203" type="xstring" value="AF_ATTRAC"/>
+<entry key="204" type="xstring" value="AV10ATTRAC"/>
+<entry key="205" type="xstring" value="AV20ATTRAC"/>
+<entry key="206" type="xstring" value="AV50ATTRAC"/>
+<entry key="207" type="xstring" value="AF_PODIUM"/>
+<entry key="208" type="xstring" value="AV5_PODIUM"/>
+<entry key="209" type="xstring" value="AV10PODIUM"/>
+<entry key="210" type="xstring" value="AV20PODIUM"/>
+<entry key="211" type="xstring" value="AF_POP"/>
+<entry key="212" type="xstring" value="OPP_TOT"/>
+<entry key="213" type="xstring" value="OPP_LAND"/>
+<entry key="214" type="xstring" value="OPP_WATER"/>
+<entry key="215" type="xstring" value="id"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="possibleValuesCount_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="possibleValuesCount" type="xint" value="50"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory"/>
+<entry key="node-name" type="xstring" value="Linear Correlation"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="2.11.1.0045704"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Linear Correlation"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 216, Cols: 216"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
+<entry key="port_object_summary" type="xstring" value="Correlation values on 216 columns"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="adf91b61-1529-4141-b782-c732bef5076d"/>
+</config>
+</config>
