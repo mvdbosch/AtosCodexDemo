@@ -10,17 +10,20 @@ library(data.table)
 library(ggplot2)
 library(ggmap)
 
+#Set workdir
+setwd('~/Documents/AtosCodexDemo/');
+
 # First: Make the CBS data available
 
 # Load combined dataset we created earlier with Talend ETL
 if (exists('data') == FALSE)
 {
-data <- read.csv('combined_data.csv',header=T,stringsAsFactors = FALSE);
+data <- read.csv('Dataset/combined_data.csv',header=T,stringsAsFactors = FALSE);
 }
 # Load GIS polygon shape data
 if (exists('shapeInfo') == FALSE )
 {
-shapeInfo <- read.csv('CBS_DATA_NL_2010-2015/shapeInfoAll.csv',stringsAsFactors = FALSE);
+shapeInfo <- read.csv('Dataset/CBS_DATA_NL_2010-2015/shapeInfoAll.csv',stringsAsFactors = FALSE);
 }
 varList <- names(data);
 varList <- varList[!(varList %in% c('Regiocode','Regionaam','Wijkcode','Buurtnaam','Gemeentecode','Gemeentenaam','POSTCODE','id'))]

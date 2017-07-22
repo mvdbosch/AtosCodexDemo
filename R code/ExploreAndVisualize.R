@@ -16,13 +16,13 @@ library(XML)
 library(pmml)
 
 #Set workdir
-setwd('./Documents/AtosCodexDemo');
+setwd('~/Documents/AtosCodexDemo');
 
 # Load combined dataset we created earlier with Talend ETL
-data <- read.csv('combined_data.csv',header=T,stringsAsFactors = FALSE);
+data <- read.csv('Dataset/combined_data.csv',header=T,stringsAsFactors = FALSE);
 
 # Load GIS polygon shape data
-shapeInfo <- read.csv('CBS_DATA_NL_2010-2015/shapeInfoAll.csv',stringsAsFactors = FALSE);
+shapeInfo <- read.csv('Dataset/CBS_DATA_NL_2010-2015/shapeInfoAll.csv',stringsAsFactors = FALSE);
 
 data_groningen <- data[data$Gemeentenaam=="Groningen" & data$YEAR == '2015',];
 shapeGroningen <- shapeInfo[shapeInfo$BU_CODE %in% data_groningen$Regiocode,];
@@ -114,8 +114,7 @@ grid.arrange(ArnhemMap, ArnhemMapPred, ncol=2, top=textGrob("Actual vs. Predicti
 ## Output our model as a PMML and save it to a file
 export_pmml <- pmml(fit,model.name="Generalized Linear Regression Model",app.name="R");
 pmml_plain_text <- toString.XMLNode(export_pmml)
-writeLines(text=pmml_plain_text,con=file('PredModel.PMML'));
-writeLines(text=pmml_plain_text,con=file('/home/d2/Repository/testing/PredModel.PMML'));
+writeLines(text=pmml_plain_text,con=file('~/Documents/AtosCodexDemo/Dataset/PredModel.PMML'));
 View(pmml_plain_text)
 
 
