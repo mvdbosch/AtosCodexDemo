@@ -16,7 +16,7 @@ setwd('~/Documents/AtosCodexDemo/');
 # First: Make the CBS data available
 
 # Load combined dataset we created earlier with Talend ETL
-if (exists('data') == FALSE)
+if ((exists('data') == FALSE) | (class(data) == 'function'))
 {
 data <- read.csv('Dataset/combined_data.csv',header=T,stringsAsFactors = FALSE);
 }
